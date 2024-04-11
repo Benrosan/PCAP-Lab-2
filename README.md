@@ -17,3 +17,7 @@ This lab focuses specifically on an AsycRAT and XWorm infection.
 
 - Wireshark
 - NMAP
+
+### Steps
+
+Made a few changes to my setup this time around. I used my Kali Linux VM this time, instead of my Windows laptop. This was done to prevent accidental infection from file contained in the PCAP. I also created a new subnet for my VM, to prevent any infections spreading to the rest of my home network.
