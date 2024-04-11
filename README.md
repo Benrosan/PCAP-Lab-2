@@ -3,7 +3,7 @@
 ## Objective
 
 Conduct PCAP analysis via Wireshark and provide a report on attack vectors used and various IOCs associated with malware infection.
-This lab focuses specifically on an AsycRAT and XWorm infection.
+This lab focuses specifically on undestanding the delivery and exploitations methods of an AsycRAT and XWorm infection.
 
 ### Skills Learned
 
