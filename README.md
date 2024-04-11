@@ -45,7 +45,8 @@ Here's what the code is trying to do in a nutshell (via Powershell, lol):
   5. **Checking for Windows Defender Process**: It checks if the Windows Defender process (`msmpeng.exe`) is running.
   6. **Executing PowerShell Scripts**: If Windows Defender is running, it copies several PowerShell scripts (`loader.ps1`, `file.ps1`, `payload.ps1`) from the source directory to the user's Pictures directory and executes them with the execution policy set to bypass.
   7. **Exiting Script** (not shown): Depending on whether Windows Defender is running or not, it exits the script with an appropriate exit code (`0` for success, `1` for failure).
-
+###
+The above encompasses steps 3, 4, 5 of the **Cyber Kill Chain**.
 
 
 
