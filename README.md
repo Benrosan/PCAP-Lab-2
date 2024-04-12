@@ -56,7 +56,13 @@ Following the TCP stream reveals the following data:
 ###
 ![2024-04-12 11_06_10-Kali Linux on GENIE - Virtual Machine Connection](https://github.com/Benrosan/PCAP-Lab-2/assets/160042310/d6673bae-acd9-4250-874c-e71e435a8f21)
 ###
-These two IPs look like the C2 servers. Would recommend updating firewall rules to block these two addresses.
+Did a quick search for the IPs in ABUSEIPDB but no major threats were reported for either IPs.
+###
+![2024-04-12 11_59_40-91 134 150 150 _ OVH SAS _ AbuseIPDB](https://github.com/Benrosan/PCAP-Lab-2/assets/160042310/6e7f2d93-8405-4c22-ba99-5ec648b7562a)
+###
+![2024-04-12 12_00_17-91 134 150 150 _ OVH SAS _ AbuseIPDB](https://github.com/Benrosan/PCAP-Lab-2/assets/160042310/03369c92-e3d9-403d-9619-5b8f593ff160)
+###
+These two IPs still look suspicious.. Would recommend updating firewall block lists to include these 2 IPs.
 
 
 
