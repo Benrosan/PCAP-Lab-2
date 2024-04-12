@@ -47,6 +47,17 @@ Here's what the code is trying to do in a nutshell (via Powershell, lol):
   7. **Exiting Script** (not shown): Depending on whether Windows Defender is running or not, it exits the script with an appropriate exit code (`0` for success, `1` for failure).
 ###
 The above encompasses steps 3, 4, 5 of the **Cyber Kill Chain**.
+###
+Looking at TLS Handshakes, we then a see a connection behind made to two suspicious IPs on port 3232, with unresolved domain names:
+###
+![2024-04-12 11_03_04-Kali Linux on GENIE - Virtual Machine Connection](https://github.com/Benrosan/PCAP-Lab-2/assets/160042310/329e2642-fca5-4399-b7eb-c894e6eface9)
+###
+Following the TCP stream reveals the following data:
+###
+![2024-04-12 11_06_10-Kali Linux on GENIE - Virtual Machine Connection](https://github.com/Benrosan/PCAP-Lab-2/assets/160042310/d6673bae-acd9-4250-874c-e71e435a8f21)
+###
+These two IPs look like the C2 servers. Would recommend updating firewall rules to block these two addresses.
+
 
 
 
